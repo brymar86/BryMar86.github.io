@@ -1,37 +1,38 @@
 ---
 layout: default
 ---
-<main class="content" role="main">
-    <article class="post single-post" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <header class="post-header short-diver">
-            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-            <section class="post-meta">
-                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-                on
-                {% for tag in page.tags limit:5 %}
-                <span>{{ tag }}</span>
-                {% endfor %}
-            </section>
-        </header>
+<div id="post" class="container">
 
-        <section class="post-content short-diver" itemprop="articleBody">
-            {{content}}
-        </section>
+	<div class="postthumb"><img src="/thumbnails/{{ page.thumbnail }}" /></div>
 
-        <footer class="post-footer">
-            {% include authorinfo.html param=page.author %}
-        </footer>
+	<h1>{{ page.title }}</h1>
 
-        {% if page.comments %}
-    		<div class="comments">
-    			<a href="javascript:;" class="view-comments"><i class="fa fa-comments"></i>View Comments...</a>
-    			<div id="disqus_thread"></div>
-    		</div>
-    		{% endif %}
+	<div class="meta clearfix">
+		<strong>Author:</strong> {{ page.author }}
 
-    </article>
-</main>
+		{% if page.license %}
+			<br /><strong>License:</strong> {{ page.license }}
+		{% endif %}
 
-{% include photoswipe.html %}
-{% include post_scripts.html %}
+		<br /><br />
+		{% if page.homepage %}
+			<a class="btn" href="{{ page.homepage }}"><i class="icon-home"></i> Homepage</a>
+		{% endif %}
+		{% if page.download %}
+			<a class="btn" href="{{ page.download }}"><i class="icon-download-alt"></i> Download</a>
+		{% endif %}
+		{% if page.demo %}
+			<a class="btn" href="{{ page.demo }}"><i class="icon-road"></i> Demo</a>
+		{% endif %}
+		{% if page.license_link %}
+			<a class="btn" href="{{ page.license_link }}"><i class="icon-file"></i> License</a>
+		{% endif %}
+	</div>
+
+
+	<div class="post-content">
+	{{ content }}
+	</div>
+
+</div>
