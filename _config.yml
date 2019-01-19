@@ -41,8 +41,8 @@ lsi: False
 username: brymar86 #github username
 repo: brymar86.github.io #github repository
 branch: master #branch
-relative_source: ../brymar86.github.io/ #source directory
-destination: ../master/ #destination directory
+relative_source: ../ #source directory
+destination: ../ #destination directory
 production_url:  
 source_url:  https://github.com/brymar86/brymar86.github.io #source repository url
 
