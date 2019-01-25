@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Media
+title: Titanic Post
 date: 2017-11-27 04:00:00
-tags: media test
-author: hanuman
+tags: Machine Learning, Titanic
+author: Bryan Marty
 ---
 
 ```python
