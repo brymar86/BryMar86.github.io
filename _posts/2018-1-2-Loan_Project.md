@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Titanic Post
-date: 2017-11-27 04:00:00
+title: Loan Project
+date: 2018-01-27 04:00:00
 tags: MachineLearning GradientBoost RandomForrest
 author: Bryan Marty
 ---
