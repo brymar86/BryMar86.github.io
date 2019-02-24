@@ -1,4 +1,9 @@
-
+layout: post
+title: Titanic Post
+date: 2012-01-02 04:00:00
+tags: MachineLearning Twython Natural Language Processing
+author: Bryan Marty
+---
 
 ```python
 !pip install tweepy
