@@ -2,7 +2,7 @@
 layout: post
 title: Titanic Post
 date: 2017-11-27 04:00:00
-tags: Machine Learning, Titanic
+tags: Machine Learning Titanic
 author: Bryan Marty
 ---
 

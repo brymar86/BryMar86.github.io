@@ -2,7 +2,7 @@
 layout: post
 title: Twitter Post
 date: 2017-11-27 04:00:00
-tags: Machine Learning, API, Twitter/Twython
+tags: Machine Learning API Twitter Twython
 author: Bryan Marty
 ---
 
