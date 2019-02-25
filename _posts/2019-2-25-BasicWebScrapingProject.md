@@ -1,7 +1,7 @@
 layout: post
-title: Basic Webscraping Project
+title: Basic Web Scraping Project
 date: 2019-02-25 04:00:00
-tags: Webscrapping BeautifulSoup API
+tags: Web Scraping BeautifulSoup API
 author: Bryan Marty
 
 ```python
